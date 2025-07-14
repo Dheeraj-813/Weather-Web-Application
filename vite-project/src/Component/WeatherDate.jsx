@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function WeatherData({ cityName, countryName }) {
-  const APIKEY = '7df18879281b3a230a580cc01d41cdc6';
+  const APIKEY = 'Your API Key';
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
